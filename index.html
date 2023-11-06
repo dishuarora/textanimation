@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text animation    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+<nav>
+
+
+  <img src="logo.jpg" alt="" class="logo">
+
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+
+</nav>
+
+<div class="text-area">
+    <h1>I'm <span class="auto-input"></span></h1>
+    <p>you can reach out to me if you need any of help in making a website.....</p>
+    <a href="">
+        Contact Me
+    </a>
+    <a href="" class="btn">Download CV</a>
+</div>
+
+<img src="int.png" alt="" class="imgs">
+     </div>
+
+
+
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <script>
+
+      var typed = new Typed(".auto-input", {
+        strings: ["Diksha Arora" , "Web desinger", "youtuber"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      })
+     </script>
+</body>
+</html>
